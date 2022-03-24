@@ -1,4 +1,4 @@
-<div id="top"></div>
+<div id="top" align="center">
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
 *** that would make this better, please fork the repo and create a pull request
@@ -83,7 +83,7 @@
 
 ### My secand application in Electron JS
 A simple electron application to retrieve pc information and specifications
-
+</div>
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
