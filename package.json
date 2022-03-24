@@ -1,0 +1,56 @@
+{
+    "name": "sysinfo",
+    "version": "1.0.0",
+    "description": "application get system informtion",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron .",
+        "dist": "electron-builder"
+    },
+    "build": {
+        "appId": "sysinfo@goldenman.com",
+        "linux": {
+            "target": [
+                "deb"
+            ],
+            "category": "Utility",
+            "icon": "src/imags/linux.png"
+        },
+        "win": {
+            "target": [
+                "nsis"
+            ],
+            "icon": "src/imags/app_icon.ico"
+        },
+        "nsis": {
+            "installerIcon": "src/imags/app_icon.ico",
+            "uninstallerIcon": "src/imags/app_icon.ico",
+            "uninstallDisplayName": "sysinfo uninstall",
+            "license": "LICENSE.md",
+            "oneClick": true
+        }
+    },
+    "repository": "https://github.com/goldenman-dev/sysifo",
+    "keywords": [
+        "Electron",
+        "device",
+        "start",
+        "cpu",
+        "demo"
+    ],
+    "author": {
+        "name": "goldenman-dev",
+        "email": "goldenmandev@gmail.com"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "electron": "^15.2.0",
+        "electron-builder": "^22.14.5"
+    },
+    "dependencies": {
+        "jquery": "^3.6.0",
+        "progressbar.js": "^1.1.0",
+        "systeminformation": "^5.11.4"
+
+    }
+}

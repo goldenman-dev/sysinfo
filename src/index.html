@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>sysinfo</title>
+</head>
+
+<body>
+    <div class="app" id="app">
+        <div class="top-bar" id="top-bar">
+            <div class="logo">
+                <img src="./imags/logoc.png" alt="logo">
+                <p>sysinfo</p>
+            </div>
+            <div class="control">
+                <img src="./imags/down.png" alt="logo" class="app_down" title="dwonload report">
+                <img src="./imags/minimaze.png" alt="logo" class="app_min" title="minimize">
+                <img src="./imags/close.png" alt="logo" class="app_exit" title="close">
+
+            </div>
+        </div>
+        <div class="main" id="main">
+            <div class="left-bar" id="left-bar">
+                <div class="item-data">
+                    <table class="table">
+
+                        <tbody class="t_body" id="item_table">
+
+                        </tbody>
+                    </table>
+                </div>
+
+                <ul class="left_ul">
+
+                    <li class="tap" id="baseboard" title="board info">
+                        <button type="submit"></button>
+                        <img class="icon" src="./imags/mb.png" alt="logo">
+                    </li>
+                    <li class="tap" title="CPU info" id="cpu">
+                        <button type="submit"></button>
+                        <img class="icon" src="./imags/cpu3.png" alt="logo">
+                    </li>
+                    <li class="tap" id="os" title="Operating system information">
+                        <button type="submit"></button>
+                        <img class="icon" src="./imags/user3.png" alt="logo">
+                    </li>
+                    <li class="tap" id="hard" title="hhd info">
+                        <button type="submit"></button>
+                        <img class="icon" src="./imags/ssd.png" alt="logo">
+                    </li>
+                    <li class="tap" id="net" title="network information">
+                        <button type="submit"></button>
+                        <img class="icon" src="./imags/wifi.png" alt="logo">
+                    </li>
+                    <li class="tap" id="graphics" title="Graphics info">
+                        <button type="submit"></button>
+                        <img class="icon" src="./imags/gpu.png" alt="logo">
+                    </li>
+                    <li class="tap" id="processes" title="Operations information">
+                        <button type="submit"></button>
+                        <img class="icon" src="./imags/processes.png" alt="logo" width="41" height="41">
+                    </li>
+                    <li class="tap" id="bios" title="bios information">
+                        <button type="submit"></button>
+                        <img class="icon" src="./imags/bios.png" alt="logo">
+                    </li>
+                    <li class="tap" id="battery" title=" battery info">
+                        <button type="submit"></button>
+                        <img class="icon" src="./imags/battery.png" alt="logo">
+                    </li>
+
+                    <li class="tap" id="versions" title="Versions information">
+                        <button type="submit"></button>
+                        <img class="icon" src="./imags/version.png" alt="logo">
+                    </li>
+                </ul>
+            </div>
+            <div class="content" id="content">
+                <div class="welcom" id="welcom">
+                    <p class="welcom_name" id="welcom_name"></p>
+                    <div class="welcom_progress" id="welcom_progress"></div>
+                    <p class="welcom_text"></p>
+                </div>
+                <div class="pc_info" id="pc_info">
+                    <div class="info_item" id="drive">
+                        <div class="model-bar hide" id="model-bar">
+                            <div class="logo">
+                                <img src="./imags/logoc.png" alt="logo">
+                                <p>HARD DRIVE INFO</p>
+                            </div>
+                            <div class="control exit_m">
+
+                                <img src="./imags/close.png" alt="logo">
+                            </div>
+                        </div>
+                        <div class="icon">
+                            <div class="drive_pro " id="drive_pro"> </div>
+                            <img src="./imags/c.png" alt="" srcset="">
+                            <div class="full_info"></div>
+                        </div>
+                        <div class="d_info" id="f_hard">
+                            <h4 class="name">hard drive</h4>
+                            <h5 class="h_size"> </h5>
+                            <h5 class="h_av"></h5>
+                            <h5 class="h_us"> </h5>
+                        </div>
+                        <table class="table hide">
+
+                            <tbody class="t_body" id="hard_table">
+
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="info_item" id="cpu1">
+                        <div class="model-bar hide" id="model-bar">
+                            <div class="logo">
+                                <img src="./imags/logoc.png" alt="logo">
+                                <p>CPU INFO</p>
+                            </div>
+                            <div class="control exit_m">
+
+                                <img src="./imags/close.png" alt="logo">
+                            </div>
+                        </div>
+                        <div class="icon">
+                            <div class="drive_pro " id="cpu_load"> </div>
+                            <img src="./imags/cpu3.png" alt="" srcset="">
+                        </div>
+                        <div class="d_info" id="f_cpu">
+                            <h4>CPU:</h4>
+                            <h5 class="c_size"> </h5>
+                            <h5 class="c_av"> </h5>
+                            <h5 class="c_us"> </h5>
+                        </div>
+                        <table class="table hide">
+
+                            <tbody class="t_body" id="cpu_table">
+
+                            </tbody>
+                        </table>
+
+                    </div>
+                    <div class="info_item" id="ram">
+                        <div class="model-bar hide" id="model-bar">
+                            <div class="logo">
+                                <img src="./imags/logoc.png" alt="logo">
+                                <p>RAM INFO</p>
+                            </div>
+                            <div class="control exit_m">
+
+                                <img src="./imags/close.png" alt="logo">
+                            </div>
+                        </div>
+                        <div class="icon">
+                            <div class="drive_pro " id="ram_load"> </div>
+                            <img src="./imags/mem3.png" alt="" srcset="">
+                        </div>
+                        <div class="d_info" id="f_ram">
+                            <h4>memory:</h4>
+                            <h5 class="r_si"></h5>
+                            <h5 class="r_av"></h5>
+                            <h5 class="r_us"> </h5>
+                        </div>
+                        <table class="table hide">
+
+                            <tbody class="t_body" id="ram_table">
+
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="info_item" id="OS">
+                        <div class="model-bar hide" id="model-bar">
+                            <div class="logo">
+                                <img src="./imags/logoc.png" alt="logo">
+                                <p>OS INFO</p>
+                            </div>
+                            <div class="control exit_m">
+
+                                <img src="./imags/close.png" alt="logo">
+                            </div>
+                        </div>
+                        <div class="icon">
+                            <div class="drive_pro " id="pc_load"> </div>
+                            <img src="./imags/lap.png" alt="" srcset="">
+                        </div>
+                        <div class="d_info" id="f_gpu">
+                            <h4>PC:</h4>
+                            <h5 class="g_si"></h5>
+                            <h5 class="g_av"></h5>
+                            <h5 class="g_us"> </h5>
+                        </div>
+                        <table class="table hide">
+
+                            <tbody class="t_body" id="os_table">
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        window.$ = window.jQuery = require("jquery");
+    </script>
+
+
+
+    <script src="./js/services.js"></script>
+    <script src="./js/control.js"></script>
+    <script src="./js/uibuilde.js"></script>
+    <script src="./js/report.js"></script>
+</body>
+
+</html>
