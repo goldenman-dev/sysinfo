@@ -81,7 +81,7 @@
 ![Product Name Screen Shot][product-screenshot]
 
 
-### My first application in Electron JS
+### My secand application in Electron JS
 A simple electron application to retrieve pc information and specifications
 
 <p align="right">(<a href="#top">back to top</a>)</p>
