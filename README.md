@@ -28,7 +28,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/goldenman-dev/sysinfo">
-    <img src="src/imags/app_icon.png" alt="Logo" width="200" height="200">
+    <img src="https://raw.githubusercontent.com/goldenman-dev/sysinfo/main/src/imags/linux.png" alt="Logo" width="200" height="200">
   </a>
 
   <h3 align="center">SysInfo</h3>
@@ -181,7 +181,7 @@ Project Link: [https://github.com/goldenman-dev/sysinfo](https://github.com/gold
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 * [systeminformation](https://www.npmjs.com/package/systeminformation)
 * [Choose an Open Source License](https://choosealicense.com)
-* [Haojian Wu] (https://github.com/hokein)
+
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
 * [othneildrew](https://github.com/othneildrew/Best-README-Template)
 
@@ -206,5 +206,5 @@ Use this space to list resources you find helpful and would like to give credit 
 [license-url]: https://github.com/goldenman-dev/sysinfo/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/github/repo-size/goldenman-dev/sysinfo?style=for-the-badge
 [linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: iq_rec.png
+[product-screenshot]: sysinfo.png
 
