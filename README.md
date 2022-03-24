@@ -39,7 +39,7 @@
     <a href="https://github.com/goldenman-dev/sysinfo/blob/main/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://raw.githubusercontent.com/goldenman-dev/sysinfo/main/src/imags/linux.png/">View Demo</a>
+    <a href="sysinfo.png">View Demo</a>
     ·
     <a href="https://github.com/goldenman-dev/sysinfo/issues">Report Bug</a>
     ·
