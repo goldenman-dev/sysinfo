@@ -105,7 +105,12 @@ Installing the application on Windows
 ### Prerequisites
 Download the exe file for Windows
 from https://github.com/goldenman-dev/sysinfo/releases
+Download the deb file for lunix Debian 
+from https://github.com/goldenman-dev/sysinfo/releases
 
+  ```sh
+  sudo dpkg -i package_file.deb
+   ```
 
 ### Installation
 
