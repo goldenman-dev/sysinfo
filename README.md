@@ -36,14 +36,14 @@
   <p align="center">
     information |system  | Devices info!
     <br />
-    <a href="https://github.com/ealijamal/iq-rec-electron/blob/main/README.md"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/goldenman-dev/sysinfo/blob/main/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/ealijamal/iq-rec-electron/">View Demo</a>
+    <a href="https://github.com/goldenman-dev/sysinfo/">View Demo</a>
     ·
-    <a href="https://github.com/ealijamal/iq-rec-electron/issues">Report Bug</a>
+    <a href="https://github.com/goldenman-dev/sysinfo/issues">Report Bug</a>
     ·
-    <a href="https://github.com/ealijamal/iq-rec-electron/issues">Request Feature</a>
+    <a href="https://github.com/goldenman-dev/sysinfo/issues">Request Feature</a>
   </p>
 </div>
 
@@ -104,7 +104,7 @@ Installing the application on Windows
 
 ### Prerequisites
 Download the exe file for Windows
-from https://github.com/ealijamal/iq-rec-electron/releases
+from https://github.com/goldenman-dev/sysinfo/releases
 
 
 ### Installation
@@ -114,7 +114,7 @@ _Below is an example of how you can instruct your audience on installing and set
 
 1. Clone the repo
    ```sh
-   https://github.com/goldenman-dev/iq-rec-electron.git
+   https://github.com/goldenman-dev/sysinfo.git
    ```
 2. Install 
 
@@ -169,7 +169,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 mail - goldenman-dev@gmail.com
 
-Project Link: [https://github.com/goldenman-dev/iq-rec-electron](https://github.com/goldenma-dev/sysinfo)
+Project Link: [https://github.com/goldenman-dev/sysinfo](https://github.com/goldenma-dev/sysinfo)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -196,15 +196,15 @@ Use this space to list resources you find helpful and would like to give credit 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/ealijamal/iq-rec-electron?style=for-the-badge
-[contributors-url]: https://github.com/ealijamal/iq-rec-electron/graphs/contributors
+[contributors-shield]: https://img.shields.io/github/contributors/goldenman-dev/sysinfo?style=for-the-badge
+[contributors-url]: https://github.com/goldenman-dev/sysinfo/graphs/contributors
 
 
-[issues-shield]: https://img.shields.io/github/downloads/ealijamal/iq-rec-electron/total?style=for-the-badge
-[issues-url]: https://github.com/ealijamal/iq-rec-electron/issues
-[license-shield]: https://img.shields.io/github/v/release/ealijamal/iq-rec-electron?include_prereleases&style=for-the-badge
-[license-url]: https://github.com/ealijamal/iq-rec-electron/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/github/repo-size/ealijamal/iq-rec-electron?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/downloads/goldenman-dev/sysinfo/total?style=for-the-badge
+[issues-url]: https://github.com/goldenman-dev/sysinfo/issues
+[license-shield]: https://img.shields.io/github/v/release/goldenman-dev/sysinfo?include_prereleases&style=for-the-badge
+[license-url]: https://github.com/goldenman-dev/sysinfo/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/github/repo-size/goldenman-dev/sysinfo?style=for-the-badge
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: iq_rec.png
 
